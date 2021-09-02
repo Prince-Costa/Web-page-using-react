@@ -1,0 +1,107 @@
+/* Navbar start */
+.nav-link {
+    display: inline-block;
+    text-decoration: none;
+}
+.navLinkActive{
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+.navbar-light .navbar-toggler{
+    border: none !important;
+}
+.navbar-brand{
+    padding-left: 0;
+    font-family:cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    color: cadetblue !important;
+}
+.logoImage{
+    width: 5rem;
+}
+/* Navbar end */
+
+/* Home Page Start */
+#header h1{
+    color: cadetblue;
+    font-size: 50px;
+    font-family: cursive;
+}
+#header h1 strong{
+    color: rgb(28, 103, 138);
+    font-size: 60px;
+    font-family: cursive;
+}
+#header h2{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: sans-serif;
+}
+#header .btn-get-started{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: .4s;
+    border: 2px solid #3498db;
+}
+#header .btn-get-started:hover{
+    background-color: white;
+}
+#header .serviceLink{
+    text-decoration: none;
+}
+#header .serviceLink:hover{
+    color:black;
+}
+#header .imgAnimation{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down{
+    0%{
+        transform:translateY(15px);
+    }
+    100%{
+        transform:translateY(-15px);
+    }
+}
+@keyframes up-down{
+    0%{
+        transform:translateY(15px);
+    }
+    100%{
+        transform:translateY(-15px);
+    }
+}
+/* Responsive */
+@media only screen and (max-width: 600px) {
+    #header h1{
+        font-size: 35px;
+    }
+    #header h2{
+        font-size: 16px;
+    }
+    #header h1 strong{
+        color: rgb(28, 103, 138);
+        font-size: 40px;
+        font-family: cursive;
+    }
+  }
+/* Home Page end */
+ /* Service page Start */
+ .card{
+    border-radius: 1rem !important;
+    transition: .4s !important;
+}
+.card:hover{
+    background-color: rgb(4, 54, 70) !important;
+    color:white !important;
+}
+ .card img{
+     padding: .5rem !important;
+     border-radius: 1rem !important;
+ }
+ 
